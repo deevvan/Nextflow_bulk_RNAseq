@@ -1,6 +1,8 @@
 # Nextflow_bulk_RNAseq
 Nextflow pipeline to trim, QC, align and quantify bulk RNA-seq fastq files
 
+![image](https://github.com/user-attachments/assets/7a29336a-3cc9-4cb3-88b4-fd50bd70bd49)
+
 
 # SARS-CoV-2 RNAseq scripts
 This README file describes the Nextflow pipeline and R scripts used in order to process the human RNAseq datasets with respiratory virus infection in SARS-CoV-2.
