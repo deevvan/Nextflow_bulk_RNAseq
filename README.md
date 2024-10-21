@@ -9,9 +9,9 @@ This README file describes the Nextflow pipeline and R scripts used in order to 
 
 ## Table of Content:
 
-1. fasterqdump_downloader.py: Python script used to download all SRR submissions (.fastq file/s) from NCBI for user entered SRP-ID
+1. Python script <filename: download_srr.py>: Python script used to download all SRR submissions (.fastq file/s) from NCBI for user entered SRP-ID
 
-2. Nextflow pipeline: 
+2. Nextflow pipeline <filename: fasterqdump_trimgalore_bowtie2_stringtie.nf>: 
 
       a. Process TRIM_GALORE: To trim low quality reads from downloaded *.fastq file/s
 
@@ -31,9 +31,9 @@ This README file describes the Nextflow pipeline and R scripts used in order to 
    
 <img width="1077" alt="image" src="https://github.com/user-attachments/assets/741282f3-6864-4e46-9ebe-b50d4e1cdf5c">
 
-4. deseq2_man2_human.R: R script to perform Differential Gene Expression using DESeq2 and downstream analyses on the count matrix obtained from step 2h.
+4. R script <filename: deseq2_man2_human.R>: R script to perform Differential Gene Expression using DESeq2 and downstream analyses on the count matrix obtained from step 2h.
 
-5. WGCNA_man2.R: R script to perform WGCNA on read count matrix obtained from step 3.
+5. R script <filename: WGCNA_man2.R>: R script to perform WGCNA on read count matrix obtained from step 3.
 
 
 
