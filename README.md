@@ -37,4 +37,8 @@ This README file describes the Nextflow pipeline and R scripts used in order to 
 
 
 
+## Complete Workflow DAG:
+
+<img width="595" alt="Screenshot 2024-10-22 at 2 19 22 PM" src="https://github.com/user-attachments/assets/8097ef97-5045-4bdd-aa11-4928bd4ec19c">
+
 
