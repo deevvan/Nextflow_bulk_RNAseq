@@ -31,9 +31,9 @@ This README file describes the Nextflow pipeline and R scripts used in order to 
    
 <img width="1077" alt="image" src="https://github.com/user-attachments/assets/741282f3-6864-4e46-9ebe-b50d4e1cdf5c">
 
-4. R script <filename: deseq2_man2_human.R>: R script to perform Differential Gene Expression using DESeq2 and downstream analyses on the count matrix obtained from step 2h.
+4. R script <filename: DESeq2.R>: R script to perform Differential Gene Expression using DESeq2 and downstream analyses on the count matrix obtained from step 2h.
 
-5. R script <filename: WGCNA_man2.R>: R script to perform WGCNA on read count matrix obtained from step 3.
+5. R script <filename: WGCNA.R>: R script to perform WGCNA on read count matrix obtained from step 3.
 
 
 
