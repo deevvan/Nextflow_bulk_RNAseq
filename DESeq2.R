@@ -1,5 +1,3 @@
-# BiocManager::install("ComplexHeatmap")
-
 library(DESeq2)
 library(org.Hs.eg.db)
 library(dplyr)
@@ -42,12 +40,8 @@ library(forcats)
 
 
 
-setwd("/mmfs1/projects/changhui.yan/DeewanB/VOC_SRR/deseq2_human/backup_wgcna")
+setwd("/path/to/working/dir")
 getwd()
-
-# Load the saved R session
-load(file = "deseq2_human_rsemcount.RData")
-
 
 
 ###################################################
