@@ -1,6 +1,8 @@
 # Nextflow_bulk_RNAseq
 Nextflow pipeline to trim, QC, align and quantify bulk RNA-seq fastq files
 
+<img width="1212" alt="Screenshot 2024-11-07 at 12 36 12 PM" src="https://github.com/user-attachments/assets/7f231a6c-a4d9-4306-bb57-e7485ee31d9d">
+
 ## Conda environment for nextflow pipeline:
 conda env create --file nextflow_env.yml --name nextflow_env
 
